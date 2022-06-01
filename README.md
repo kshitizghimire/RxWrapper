@@ -1,3 +1,3 @@
 # RxWrapper
 
-A description of this package.
+A wrapper which exposes RxSwift's binary target
