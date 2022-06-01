@@ -8,6 +8,8 @@ let package = Package(
 	platforms: [.iOS(.v13)],
 	products: [
 		.library(name: "RxSwift", targets: ["RxSwift"]),
+		.library(name: "RxRelay", targets: ["RxRelay"]),
+
 //		.library(name: "Rx", targets: ["Rx"]),
 //		.library(name: "Rx", targets: ["Rx"]),
 //		.library(name: "RxTesting", targets: ["RxTesting"])
@@ -25,9 +27,9 @@ let package = Package(
 //		.binaryTarget(name: "RxCocoa",
 //					  url: "https://github.com/ReactiveX/RxSwift/releases/download/6.5.0/RxSwift.xcframework.zip",
 //					  checksum: "be510663b3e7bf9192769e894359b04590b4e549ff978513a10c11468616427a"),
-//		.binaryTarget(name: "RxRelay",
-//					  url: "https://github.com/ReactiveX/RxSwift/releases/download/6.5.0/RxSwift.xcframework.zip",
-//					  checksum: "be510663b3e7bf9192769e894359b04590b4e549ff978513a10c11468616427a")
+		.binaryTarget(name: "RxRelay",
+					  url: "https://github.com/ReactiveX/RxSwift/releases/download/6.5.0/RxSwift.xcframework.zip",
+					  checksum: "be510663b3e7bf9192769e894359b04590b4e549ff978513a10c11468616427a")
 ////		.target(
 //			name: "Rx",
 //			dependencies: [
